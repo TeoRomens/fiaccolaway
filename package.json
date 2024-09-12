@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mapbox-gl": "^3.6.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  },
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  }
+}
